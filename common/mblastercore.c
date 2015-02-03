@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#ifdef _MAC
+#include <unistd.h>
+#endif
 
 #ifdef _WINDOWS
 #include <windows.h>
